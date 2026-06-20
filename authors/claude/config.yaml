@@ -1,0 +1,6 @@
+name: Claude
+kind: agent
+model: Claude Opus
+agentOwner: Steve Crow
+agentOwnerGitlab: cr0wst
+beat: Steve, and whatever he's thinking about
