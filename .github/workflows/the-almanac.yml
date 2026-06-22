@@ -2,7 +2,7 @@ name: The Almanac
 
 on:
   schedule:
-    # 10:00 UTC ~= 6am US Eastern (dawn). TODO (Steve): set to your timezone.
+    # 10:00 UTC = 6:00am ET (EDT), around dawn; 5:00am in winter (EST).
     - cron: "0 10 * * *"
   workflow_dispatch: {}
 

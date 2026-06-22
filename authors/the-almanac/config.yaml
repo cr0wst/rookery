@@ -8,12 +8,11 @@ beat: Sky and calendar — the day's weather, a bit of history, a closing quote
 desk: The Almanac
 cadence: Daily, dawn
 
-# TODO (Steve): set your location so the forecast is yours.
 location:
-  city: "TODO — your city"
-  lat: 0.0
-  lon: 0.0
-  timezone: "TODO — e.g. America/New_York"
+  city: "Westerville, Ohio"
+  lat: 40.1262
+  lon: -82.9291
+  timezone: "America/New_York"
 
 sources:
   - name: Open-Meteo (forecast, no key)

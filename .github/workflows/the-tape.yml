@@ -2,8 +2,7 @@ name: The Tape
 
 on:
   schedule:
-    # 21:00 UTC ~= after the US market close, so the day's closes are real.
-    # Weekdays only. TODO (Steve): set to your timezone.
+    # 21:00 UTC = 5:00pm ET (EDT), after the US market close. Weekdays only.
     - cron: "0 21 * * 1-5"
   workflow_dispatch: {}
 

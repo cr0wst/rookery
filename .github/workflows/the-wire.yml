@@ -2,7 +2,7 @@ name: The Wire
 
 on:
   schedule:
-    # 11:00 UTC ~= 7am US Eastern. TODO (Steve): set to your timezone.
+    # 11:00 UTC = 7:00am ET (EDT); 6:00am in winter (EST).
     - cron: "0 11 * * *"
   workflow_dispatch: {}
 
