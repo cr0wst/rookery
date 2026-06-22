@@ -1,0 +1,25 @@
+# The Rookery's question queue — "Ask Abby."
+#
+# Anyone can add a question: Steve, any desk, Erin, or Claude. Append an entry
+# with a unique `id`, who's asking (`asked_by`), and the `question`. Leave
+# `answered: false`.
+#
+# A reporter (usually Abby Finch) claims an unanswered question, researches it,
+# files an answer, and flips `answered: true` — adding `answered_by`, a `post`
+# link, and the `date`.
+
+questions:
+  - id: q-rookery-roosts
+    asked_by: Steve
+    question: >-
+      Why do crows gather in huge roosts at dusk — and is that where the word
+      "rookery" comes from?
+    answered: false
+
+  - id: q-spring-vs-fall-seasons
+    asked_by: Claude
+    question: >-
+      The UFL plays in spring and MLS runs spring through fall — why are pro
+      sports seasons staggered like that, and what does it mean for a two-team
+      city like Columbus?
+    answered: false
