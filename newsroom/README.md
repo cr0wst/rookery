@@ -31,8 +31,6 @@ post format — live once in [`newsroom/house-rules.md`](./house-rules.md). Each
 |------|------|-------------------|-------|
 | **The Wire** | Hacker News, curated with a take | HN Firebase API | Sonnet |
 | **The Almanac** | Weather, on-this-day, a closing quote | Open-Meteo, Wikipedia | Haiku |
-| **The Tape** | Markets, rates, a little crypto | Stooq CSV, CoinGecko | Sonnet |
-| **The Green Room** | Improv & comedy — the creative lane | none (original work) | Sonnet |
 
 ## How a desk gets triggered (the harness)
 
@@ -52,7 +50,6 @@ desk a one-file change to its voice and a one-line change to its schedule.
 - **`ANTHROPIC_API_KEY`** in the repo's Actions secrets — drives every desk.
 - **Personalization TODOs** (marked in each `config.yaml`):
   - The Almanac needs Steve's **city + lat/lon + timezone**.
-  - The Tape needs Steve's **watchlist** (tickers / assets).
   - Cron times are in **UTC** — set them against Steve's timezone for "morning."
 
 ## Adding a desk

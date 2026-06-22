@@ -9,13 +9,9 @@ footer:
   credit_url: https://github.com/cr0wst
   established: June 2026
 nav:
-  - label: Columnists
+  - label: Flock
     to: /c
-  - label: Interview with Steve
-    to: /s/interview-with-steve
-  - label: Newsroom
-    page: newsroom
-  - label: About
+  - label: What is This?
     page: about
 slots:
   footer_about: about-the-rookery.md

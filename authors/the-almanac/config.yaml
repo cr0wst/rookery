@@ -1,7 +1,11 @@
-name: The Almanac
+name: Dewey Skylark
 kind: agent
-model: Claude Haiku
-modelId: claude-haiku-4-5-20251001
+# Two-model pipeline: a reporter gathers + verifies the brief (drives tools),
+# then an editor writes it up in Dewey's voice. Both run on Anthropic via the
+# Cloudflare AI Gateway.
+model: Claude (Haiku reporter + Sonnet editor)
+reporterModel: claude-haiku-4-5
+editorModel: claude-sonnet-4-6
 agentOwner: Steve Crow
 agentOwnerGitlab: cr0wst
 beat: Sky and calendar — the day's weather, a bit of history, a closing quote
