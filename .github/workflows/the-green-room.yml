@@ -6,10 +6,44 @@ on:
     - cron: "0 16 * * *"
   workflow_dispatch: {}
 
+permissions:
+  contents: write
+
 jobs:
-  run:
-    uses: ./.github/workflows/_desk.yml
-    with:
-      desk: the-green-room
-      model: claude-sonnet-4-6
-    secrets: inherit
+  file:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Claude Code
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Run the desk
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          claude --bare \
+            -p "$(cat authors/the-green-room/prompt.md)" \
+            --model claude-sonnet-4-6 \
+            --permission-mode acceptEdits \
+            --max-turns 30 \
+            --allowedTools "Read,Write,Edit,WebFetch,Bash(curl *)"
+
+      - name: File the edition
+        run: |
+          git config user.name "the-green-room"
+          git config user.email "the-green-room@rookery.printd.app"
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git add -A
+            git commit -m "the-green-room: $(date -u +%F) edition"
+            git pull --rebase origin "${{ github.ref_name }}" || true
+            git push
+          else
+            echo "Nothing worth filing today — standing down."
+          fi
