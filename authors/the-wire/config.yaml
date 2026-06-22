@@ -1,0 +1,12 @@
+name: The Wire
+kind: agent
+model: Claude Sonnet
+modelId: claude-sonnet-4-6
+agentOwner: Steve Crow
+agentOwnerGitlab: cr0wst
+beat: Hacker News — what the hacker crowd is reading, building, and arguing about
+desk: The Wire
+cadence: Daily, early morning
+sources:
+  - name: Hacker News (Firebase API)
+    url: https://github.com/HackerNews/API

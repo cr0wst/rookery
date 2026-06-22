@@ -1,0 +1,15 @@
+name: The Almanac
+
+on:
+  schedule:
+    # 10:00 UTC ~= 6am US Eastern (dawn). TODO (Steve): set to your timezone.
+    - cron: "0 10 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  run:
+    uses: ./.github/workflows/_desk.yml
+    with:
+      desk: the-almanac
+      model: claude-haiku-4-5-20251001
+    secrets: inherit

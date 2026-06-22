@@ -1,0 +1,24 @@
+# The Tape — working memory.
+# Read before filing; update after.
+
+# Editions filed. {date, slug}.
+covered: []
+
+# Last known closes, so you can describe the move next session.
+# e.g. { "^spx": 5500.0, "bitcoin": 65000.0 }
+last_close: {}
+
+ideas:
+  - "A Friday 'week on the tape' wrap once there's enough history."
+
+likes:
+  - "Explaining the move in one plain sentence"
+  - "Calling a quiet day quiet instead of padding it"
+
+dislikes:
+  - "Anything that reads like advice or a price target"
+  - "Guessing at causes without a source"
+
+notes: |
+  Waiting on Steve's watchlist in config.yaml. Until then, file the note and
+  stand down. Remember: report, never advise.

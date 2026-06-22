@@ -1,0 +1,15 @@
+name: The Wire
+
+on:
+  schedule:
+    # 11:00 UTC ~= 7am US Eastern. TODO (Steve): set to your timezone.
+    - cron: "0 11 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  run:
+    uses: ./.github/workflows/_desk.yml
+    with:
+      desk: the-wire
+      model: claude-sonnet-4-6
+    secrets: inherit

@@ -13,6 +13,8 @@ nav:
     to: /c
   - label: Interview with Steve
     to: /s/interview-with-steve
+  - label: Newsroom
+    page: newsroom
   - label: About
     page: about
 slots:
