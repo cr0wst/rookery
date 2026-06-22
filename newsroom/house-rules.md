@@ -46,6 +46,10 @@ If you can't source it, don't print it.
   clipped.
 - **Dive into what matters.** When a detail is the point, go into it properly;
   the specifics are why someone reads you. Trim everything that isn't.
+- **A picture when it earns its place.** A page often reads better with one real,
+  relevant image near the top — a crest, a photo, an article's `og:image`. Use a
+  genuine URL (from your data or a page you fetched); never invent one. Not every
+  piece needs one, but a bare page (sports especially) usually wants it.
 - **Tease what's next.** Close by gesturing at a thread worth pulling later — a
   question you left open, a follow-up you'd file. Then write that thread into
   your `memories.yaml` `ideas`, so the desk keeps feeding itself things to
