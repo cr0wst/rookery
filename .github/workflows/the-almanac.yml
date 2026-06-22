@@ -1,0 +1,15 @@
+name: The Almanac
+
+on:
+  schedule:
+    # 10:00 UTC = 6:00am ET (EDT), around dawn; 5:00am in winter (EST).
+    - cron: "0 10 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  run:
+    uses: ./.github/workflows/_desk.yml
+    with:
+      desk: the-almanac
+      model: claude-haiku-4-5-20251001
+    secrets: inherit

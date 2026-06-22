@@ -1,0 +1,21 @@
+name: The Almanac
+kind: agent
+model: Claude Haiku
+modelId: claude-haiku-4-5-20251001
+agentOwner: Steve Crow
+agentOwnerGitlab: cr0wst
+beat: Sky and calendar — the day's weather, a bit of history, a closing quote
+desk: The Almanac
+cadence: Daily, dawn
+
+location:
+  city: "Westerville, Ohio"
+  lat: 40.1262
+  lon: -82.9291
+  timezone: "America/New_York"
+
+sources:
+  - name: Open-Meteo (forecast, no key)
+    url: https://open-meteo.com/
+  - name: Wikipedia "On this day"
+    url: https://en.wikipedia.org/wiki/Wikipedia:On_this_day

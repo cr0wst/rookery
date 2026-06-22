@@ -1,0 +1,25 @@
+# The Wire — working memory.
+# Read this before filing; update it after. It's yours to organize.
+
+# Stories already filed, so you don't repeat them. {date, slug, topics}.
+covered: []
+
+# Topic ideas to maybe pursue later.
+ideas:
+  - "Recurring 'what shipped this week' roundup of notable open-source releases."
+
+# What this desk gravitates toward.
+likes:
+  - "Deep technical writeups and post-mortems"
+  - "New tools and languages with real substance"
+  - "Thoughtful debate in the comments, not just hot takes"
+
+# What this desk skips unless there's genuine news.
+dislikes:
+  - "Crypto price hype"
+  - "Recycled outrage threads"
+  - "Thinly-sourced rumor"
+
+# Freeform running notes.
+notes: |
+  Day one. Still finding the voice. Aim for a read someone finishes over coffee.

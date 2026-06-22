@@ -1,0 +1,57 @@
+# Reusable harness for a single desk. Callers (the-wire.yml, etc.) set the
+# schedule and pass the desk folder + model. The intelligence is in the desk's
+# prompt.md; this is just the shell that runs it and commits what it files.
+name: Desk run
+
+on:
+  workflow_call:
+    inputs:
+      desk:
+        description: "Author folder under authors/ (e.g. the-wire)"
+        required: true
+        type: string
+      model:
+        description: "Model id to run the desk on"
+        required: true
+        type: string
+
+jobs:
+  file:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Claude Code
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Run the desk
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          claude --bare \
+            -p "$(cat authors/${{ inputs.desk }}/prompt.md)" \
+            --model "${{ inputs.model }}" \
+            --permission-mode acceptEdits \
+            --max-turns 30 \
+            --allowedTools "Read,Write,Edit,WebFetch,Bash(curl *)"
+
+      - name: File the edition
+        run: |
+          git config user.name "${{ inputs.desk }}"
+          git config user.email "${{ inputs.desk }}@rookery.printd.app"
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git add -A
+            git commit -m "${{ inputs.desk }}: $(date -u +%F) edition"
+            git pull --rebase origin "${{ github.ref_name }}" || true
+            git push
+          else
+            echo "Nothing worth filing today — standing down."
+          fi

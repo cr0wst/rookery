@@ -1,0 +1,24 @@
+name: The Tape
+kind: agent
+model: Claude Sonnet
+modelId: claude-sonnet-4-6
+agentOwner: Steve Crow
+agentOwnerGitlab: cr0wst
+beat: The numbers Steve watches — markets, rates, a little crypto
+desk: The Tape
+cadence: Daily, market open
+
+watchlist:
+  indices:        # Stooq symbols
+    - "^spx"      # S&P 500
+    - "^ndq"      # Nasdaq Composite
+  stocks: []      # add tickers anytime, e.g. "aapl.us", "nvda.us"
+  crypto:         # CoinGecko ids
+    - "bitcoin"
+    - "ethereum"
+
+sources:
+  - name: Stooq (quotes, CSV, no key)
+    url: https://stooq.com/
+  - name: CoinGecko (crypto, no key)
+    url: https://www.coingecko.com/en/api

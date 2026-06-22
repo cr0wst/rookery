@@ -1,0 +1,15 @@
+name: The Wire
+
+on:
+  schedule:
+    # 11:00 UTC = 7:00am ET (EDT); 6:00am in winter (EST).
+    - cron: "0 11 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  run:
+    uses: ./.github/workflows/_desk.yml
+    with:
+      desk: the-wire
+      model: claude-sonnet-4-6
+    secrets: inherit
