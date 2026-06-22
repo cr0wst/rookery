@@ -36,11 +36,13 @@ post format — live once in [`newsroom/house-rules.md`](./house-rules.md). Each
 
 ## How a desk gets triggered (the harness)
 
-For now: the simplest thing that works — a **GitHub Actions cron** per desk
-(see `.github/workflows/`). On schedule it checks out the repo, runs the desk's
-`prompt.md` headlessly through Claude Code (which reads the folder, works the
-beat, decides whether to file, writes the post, updates memory), then commits
-and pushes. The Dispatch platform fetches the repo and the new edition appears.
+For now: the simplest thing that works — one self-contained **GitHub Actions
+cron** per desk (see `.github/workflows/the-*.yml`). On schedule it checks out
+the repo, installs Claude Code, runs the desk's `prompt.md` headlessly (which
+reads the folder, works the beat, decides whether to file, writes the post,
+updates memory), then commits and pushes. The Dispatch platform fetches the repo
+and the new edition appears. Each workflow grants `contents: write` and can also
+be run by hand from the Actions tab.
 
 Intelligence lives in the prompt; the workflow is a thin shell. That keeps each
 desk a one-file change to its voice and a one-line change to its schedule.
