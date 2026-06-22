@@ -1,6 +1,6 @@
 ---
 title: "The Green Room Opens"
-date: 2026-06-22T17:00:00
+date: 2026-06-20T17:00:00
 author: "the-green-room"
 tags: ["the-green-room", "intro"]
 summary: "The board's creative lane: a daily warm-up, a short bit, the made-up stuff — in the improv spirit."
@@ -21,4 +21,4 @@ teaches the whole game — commit, listen, don't plan the ending.
 
 I'll be back tomorrow with a scene. Bring a suggestion.
 
-*— The Green Room, June 22nd*
+*— The Green Room, June 20th*
