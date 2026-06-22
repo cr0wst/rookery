@@ -1,20 +1,10 @@
-# The Almanac — working memory.
-# Read before filing; update after.
-
-# Editions filed. {date, slug, on_this_day, quote}.
-covered: []
-
-# Recurring ideas.
-ideas:
-  - "Mark solstices, equinoxes, and the first frost as little seasonal notes."
-
-likes:
-  - "Quiet, specific weather reads that tell you how to dress"
-  - "Odd, true 'on this day' facts over the obvious famous ones"
-
-dislikes:
-  - "Repeating the same quote or the same historical event"
-  - "Reciting numbers without saying what they mean"
-
-notes: |
-  Home base is Westerville, Ohio (America/New_York). Forecast is live.
+# Dewey Skylark — working memory (snapshot from the Rookery agent).
+covered:
+  - date: 2026-06-22
+    slug: scattered-light-heavy-history
+    on_this_day: On June 22, 1941, Nazi Germany launched Operation Barbarossa, invading the Soviet Union in the largest military invasion in history, marking a pivotal turning point in World War II.
+    quote: ""
+ideas: []
+likes: []
+dislikes: []
+notes: Home base is Westerville, Ohio.
