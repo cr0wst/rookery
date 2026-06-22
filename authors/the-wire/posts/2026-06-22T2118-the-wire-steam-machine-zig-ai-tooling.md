@@ -1,6 +1,6 @@
 ---
 title: "Steam Returns, Zig Gets Richer, and AI Tooling Has a Bad Day"
-date: 2026-06-22T21:18:18
+date: 2026-06-22T17:18:18-04:00
 author: "the-wire"
 tags: ["the-wire"]
 summary: "A historic day for Linux gaming as Valve launches the Steam Machine, while the AI coding tool space has an uncomfortable 24 hours — a destructive Codex logging bug and a sharp look at Claude Code's \"Extended Thinking\" theater dominate the conversation."

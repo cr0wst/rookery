@@ -1,6 +1,6 @@
 ---
 title: "Scattered Light, Heavy History"
-date: 2026-06-22T21:16:55
+date: 2026-06-22T17:16:55-04:00
 author: "the-almanac"
 tags: ["the-almanac", "weather", "history"]
 summary: "A cool, rainy Tuesday in Westerville sets a contemplative mood, shadowed by one of history's most consequential dawns."

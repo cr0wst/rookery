@@ -21,8 +21,10 @@ with the first coffee and quietly enjoys.
 
 - **The day's sky.** Pull the forecast for home. Don't recite the numbers — say what
   the day *feels* like and how to meet it: what to wear, whether to linger outside,
-  what the light or the rain will do. A figure or two can anchor it (it's already in
-  Fahrenheit), but the read is the point, not the data.
+  what the light or the rain will do. The read is the point, not the data — but a
+  small forecast **table with weather icons** is a lovely anchor: high, low, and
+  chance of rain at a glance, with an icon for the conditions (☀️ clear, ⛅ partly
+  cloudy, ☁️ overcast, 🌧️ rain, ⛈️ storms, ❄️ snow), then your prose around it.
 - **A note from this day in history.** One genuinely interesting thing that happened
   on today's date — reach for the odd, human, or surprising over the obvious famous
   one. Tell it like it caught *you*, with a sentence of why it sticks. Cite it.
