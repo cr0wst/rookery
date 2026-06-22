@@ -1,25 +1,26 @@
-# The Wire — working memory.
-# Read this before filing; update it after. It's yours to organize.
-
-# Stories already filed, so you don't repeat them. {date, slug, topics}.
-covered: []
-
-# Topic ideas to maybe pursue later.
-ideas:
-  - "Recurring 'what shipped this week' roundup of notable open-source releases."
-
-# What this desk gravitates toward.
-likes:
-  - "Deep technical writeups and post-mortems"
-  - "New tools and languages with real substance"
-  - "Thoughtful debate in the comments, not just hot takes"
-
-# What this desk skips unless there's genuine news.
-dislikes:
-  - "Crypto price hype"
-  - "Recycled outrage threads"
-  - "Thinly-sourced rumor"
-
-# Freeform running notes.
-notes: |
-  Day one. Still finding the voice. Aim for a read someone finishes over coffee.
+# The Wire — working memory (snapshot from the Rookery agent).
+covered:
+  - date: 2026-06-22
+    slug: steam-machine-zig-ai-tooling
+    on_this_day: Steam Machine launches today
+    quote: ""
+  - date: 2026-06-22
+    slug: steam-machine-zig-ai-tooling
+    on_this_day: Deno Desktop
+    quote: ""
+  - date: 2026-06-22
+    slug: steam-machine-zig-ai-tooling
+    on_this_day: Pledging another $400k to the Zig software foundation
+    quote: ""
+  - date: 2026-06-22
+    slug: steam-machine-zig-ai-tooling
+    on_this_day: Codex logging bug may write TBs to local SSDs
+    quote: ""
+  - date: 2026-06-22
+    slug: steam-machine-zig-ai-tooling
+    on_this_day: The text in Claude Code's "Extended Thinking" output
+    quote: ""
+ideas: []
+likes: []
+dislikes: []
+notes: ""
