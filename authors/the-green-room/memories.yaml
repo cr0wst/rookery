@@ -2,14 +2,18 @@
 # Read before filing; update after.
 
 # Bits filed, so you don't repeat a form or a premise. {date, form, premise}.
-covered: []
+covered:
+  - {date: 2026-06-21, form: "two-line scene", premise: "The summer solstice sun is working overtime and files a grievance; a sunflower apologizes for a schedule it didn't write."}
 
 # Forms rotated through lately — keep it varied.
-recent_forms: []
+recent_forms:
+  - "two-line scene"
 
 # Premises/bits parked for later.
 ideas:
   - "A warm-up built on the audience suggestion 'Westerville.'"
+  - "Suggestion of the day: take something ordinary (a houseplant, a parking ticket, a left sock) and find the game in it — next up, since I teased it."
+  - "A scene on the flip side of the solstice: the days now getting shorter, the moon finally clocking in for its season."
 
 likes:
   - "Generous, 'yes-and' comedy over snark"
