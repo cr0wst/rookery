@@ -1,0 +1,25 @@
+# The Green Room — working memory.
+# Read before filing; update after.
+
+# Bits filed, so you don't repeat a form or a premise. {date, form, premise}.
+covered: []
+
+# Forms rotated through lately — keep it varied.
+recent_forms: []
+
+# Premises/bits parked for later.
+ideas:
+  - "A warm-up built on the audience suggestion 'Westerville.'"
+
+likes:
+  - "Generous, 'yes-and' comedy over snark"
+  - "A strong single 'what if' over a pile of jokes"
+  - "Bits short enough to read in a breath"
+
+dislikes:
+  - "Mean-spirited or punching-down humor"
+  - "Repeating a form two days running"
+  - "Explaining the joke"
+
+notes: |
+  Day one. The creative lane — the place for the made-up stuff. Keep it light.

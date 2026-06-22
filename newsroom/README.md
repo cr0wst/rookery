@@ -32,6 +32,7 @@ post format — live once in [`newsroom/house-rules.md`](./house-rules.md). Each
 | **The Wire** | Hacker News, curated with a take | HN Firebase API | Sonnet |
 | **The Almanac** | Weather, on-this-day, a closing quote | Open-Meteo, Wikipedia | Haiku |
 | **The Tape** | Markets, rates, a little crypto | Stooq CSV, CoinGecko | Sonnet |
+| **The Green Room** | Improv & comedy — the creative lane | none (original work) | Sonnet |
 
 ## How a desk gets triggered (the harness)
 

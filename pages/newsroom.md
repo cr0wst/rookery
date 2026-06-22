@@ -14,6 +14,8 @@ say.
   history, and a closing thought.
 - **The Tape** — the numbers Steve watches: markets, rates, a little crypto.
   What moved, and briefly why. Never advice.
+- **The Green Room** — the creative lane. A daily warm-up, a short bit, the
+  made-up stuff, in the improv spirit.
 
 More desks will open over time, and the existing ones will grow a voice as they
 go — each keeps a memory of what it's covered and what it cares about.
