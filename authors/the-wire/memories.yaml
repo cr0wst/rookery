@@ -1,6 +1,10 @@
 # Maggie Pye — working memory (snapshot from the Rookery agent).
 covered:
   - date: 2026-06-23
+    slug: local-first-crdts-moment
+    on_this_day: Local-first software is having a moment again
+    quote: ""
+  - date: 2026-06-23
     slug: sqlite-at-the-edge
     on_this_day: The quiet rise of SQLite at the edge
     quote: ""
