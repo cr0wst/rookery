@@ -1,6 +1,10 @@
 # Maggie Pye — working memory (snapshot from the Rookery agent).
 covered:
   - date: 2026-06-23
+    slug: sqlite-at-the-edge
+    on_this_day: The quiet rise of SQLite at the edge
+    quote: ""
+  - date: 2026-06-23
     slug: warrants-version-control-http-query
     on_this_day: The new HTTP QUERY method explained
     quote: ""
