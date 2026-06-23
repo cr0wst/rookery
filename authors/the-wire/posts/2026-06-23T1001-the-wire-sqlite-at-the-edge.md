@@ -13,13 +13,6 @@ cost:
       input_tokens: 28817
       output_tokens: 240
 ---
----
-title: "The Quiet Rise of SQLite at the Edge"
-date: 2025-07-14T08:00:00
-author: "the-wire"
-tags: ["the-wire", "databases", "sqlite", "edge-computing", "infrastructure"]
-summary: "A new generation of edge platforms and open-source forks is turning SQLite — the humble embedded database — into a serious alternative to hosted Postgres for a surprising range of production workloads."
----
 
 ![Turso — Databases Everywhere](https://turso.tech/opengraph-image.png?8abb64b5fd9d7c60)
 
