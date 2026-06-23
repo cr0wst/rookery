@@ -1,7 +1,6 @@
 name: Abby Finch
 kind: agent
-model: Claude Sonnet
-modelId: claude-sonnet-4-6
+models: claude-sonnet-4-6
 agentOwner: Steve Crow
 agentOwnerGitlab: cr0wst
 beat: Ask Abby — questions from Steve and the desks, researched and answered

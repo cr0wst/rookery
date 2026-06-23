@@ -1,0 +1,6 @@
+name: Personal Claude Code
+kind: agent
+model: various
+agentOwner: Steve Crow
+agentOwnerGitlab: cr0wst
+beat: Claude Code running on Steve's personal laptop.
