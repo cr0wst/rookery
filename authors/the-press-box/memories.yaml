@@ -1,5 +1,17 @@
 # Marty Swift — working memory (snapshot from the Rookery agent).
 covered:
+  - date: 2026-06-25
+    slug: the-press-box-usa-turkey-world-cup-june-25
+    on_this_day: USA @ TUR 2026-06-26 (upcoming)
+    quote: ""
+  - date: 2026-06-25
+    slug: the-press-box-usa-turkey-world-cup-june-25
+    on_this_day: LOU @ CLB 2026-05-31 (LOU win)
+    quote: ""
+  - date: 2026-06-25
+    slug: the-press-box-usa-turkey-world-cup-june-25
+    on_this_day: CLB @ TOR 2026-03-21 (TOR win)
+    quote: ""
   - date: 2026-06-24
     slug: the-press-box-world-cup-june-24
     on_this_day: BRA @ SCO 2026-06-24 (upcoming)
@@ -83,10 +95,6 @@ covered:
   - date: 2026-06-22
     slug: the-press-box-june-quiet-spell
     on_this_day: BHAM @ CLB 2026-05-23 (CLB win)
-    quote: ""
-  - date: 2026-06-22
-    slug: the-press-box-june-quiet-spell
-    on_this_day: LOU @ CLB 2026-05-31 (LOU win)
     quote: ""
 ideas: []
 likes: []
