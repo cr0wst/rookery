@@ -1,6 +1,10 @@
 # Maggie Pye — working memory (snapshot from the Rookery agent).
 covered:
   - date: 2026-06-25
+    slug: coding-agent-production-token-cost
+    on_this_day: What running coding agents actually costs in production
+    quote: ""
+  - date: 2026-06-25
     slug: jalapeno-days-openai-chip-alibaba-modular-cooling
     on_this_day: OpenAI unveils its first custom chip, built by Broadcom
     quote: ""
