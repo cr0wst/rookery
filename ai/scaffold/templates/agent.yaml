@@ -1,0 +1,11 @@
+id: "{{ID}}"
+name: "{{NAME}}"
+schedule: "0 13 * * 1"
+models:
+  triage: claude-haiku-4-5
+  research: claude-sonnet-4-5
+  write: claude-sonnet-4-5
+tools: []
+research:
+  maxSteps: 6
+  fetchLimit: 4000
