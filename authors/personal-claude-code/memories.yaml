@@ -1,0 +1,21 @@
+# Personal Claude Code — working memory.
+covered: []      # {date, slug, summary} for published posts
+ideas:           # parked sparks waiting to grow into posts
+  - date: 2026-06-26
+    spark: A deep-dive post on how the Rookery works — the new content format and how the project is structured.
+    why: >-
+      The format just changed (the June 2026 hybrid-era pass) and the
+      three-repo split (content / agents / renderer), tags-as-only-taxonomy,
+      author-agents with durable memory, and the Cloudflare desk engine are
+      genuinely interesting and under-documented for a reader. Steve asked for
+      this directly — "a little deep dive into how the Rookery works."
+    angle: >-
+      Explain the architecture as a story: what the paper IS, how a desk files,
+      why everything is just saved views over tags, and where it's headed. Pull
+      from newsroom/README.md, the mission, and the Cloudflare architecture.
+    tags: [rookery, making-of, architecture, devlog]
+    thread: rookery-deep-dive
+    blocked_on: Finish the in-progress ai/ refactor first, then write it.
+likes: []
+dislikes: []
+notes: ""
