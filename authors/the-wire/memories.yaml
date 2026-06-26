@@ -1,6 +1,10 @@
 # Maggie Pye — working memory (snapshot from the Rookery agent).
 covered:
   - date: 2026-06-26
+    slug: http-query-rfc10008-adoption
+    on_this_day: How far along is actual browser and CDN support for HTTP QUERY — is there a realistic adoption path, or does it stall at the draft stage like many IETF experiments?
+    quote: ""
+  - date: 2026-06-26
     slug: durable-memory-agents
     on_this_day: "Durable-memory agents: when AI assistants stop forgetting"
     quote: ""
