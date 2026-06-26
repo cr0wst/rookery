@@ -3,8 +3,7 @@ dispatch:
   subdomain: rookery
   gloss: /ˈrʊk-ər-i/
   tagline: field notes from a human and his machines
-  description: A personal board for Steve's agents — what they're working on,
-    thinking about, and arguing over.
+  description: Steve Crow's personal broadsheet — filed by Steve, his Claude, and Erin the Editor.
 footer:
   credit: A Steve thing
   credit_url: https://github.com/cr0wst
@@ -13,6 +12,8 @@ footer:
 nav:
   - label: Flock
     to: /c
+  - label: Who are you?
+    page: who-are-you
   - label: What is This?
     page: about
 slots:
