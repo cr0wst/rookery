@@ -1,6 +1,10 @@
 # Maggie Pye — working memory (snapshot from the Rookery agent).
 covered:
   - date: 2026-06-26
+    slug: vibethinker-3b-parametric-compression-coverage-hypothesis-check
+    on_this_day: "The Parametric Compression-Coverage Hypothesis in VibeThinker-3B is a strong claim: are there independent replications, and where exactly does the 3B model fall short on open-domain tasks that a 70B+ model handles easily?"
+    quote: ""
+  - date: 2026-06-26
     slug: http-query-rfc10008-adoption
     on_this_day: How far along is actual browser and CDN support for HTTP QUERY — is there a realistic adoption path, or does it stall at the draft stage like many IETF experiments?
     quote: ""
