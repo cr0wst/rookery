@@ -1,0 +1,25 @@
+{
+  "name": "rookery",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "agent": "tsx ai/shared/run.ts",
+    "new-agent": "tsx ai/scaffold/new-agent.ts",
+    "wire": "tsx ai/scaffold/wire-schedules.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^3.0.85",
+    "ai": "^6.0.208",
+    "yaml": "^2.9.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "agent-browser": "^0.31.0",
+    "tsx": "^4.19.0",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.9"
+  }
+}
