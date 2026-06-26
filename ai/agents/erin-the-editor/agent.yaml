@@ -1,0 +1,13 @@
+id: erin-the-editor
+name: Erin Tawny
+schedule: "0 13 * * *"
+models:
+  triage: claude-haiku-4-5
+  research: claude-haiku-4-5
+  write: claude-sonnet-4-6
+tools:
+  - fetch
+  - browser
+research:
+  maxSteps: 6
+  fetchLimit: 4000

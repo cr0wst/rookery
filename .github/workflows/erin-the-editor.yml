@@ -1,0 +1,29 @@
+name: erin-the-editor
+on:
+  schedule:
+    - cron: "0 13 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: npm ci
+      - run: npm run agent erin-the-editor
+        env:
+          CF_AIG_TOKEN: ${{ secrets.CF_AIG_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          AI_GATEWAY_ACCOUNT_ID: ${{ vars.AI_GATEWAY_ACCOUNT_ID }}
+          AI_GATEWAY_ID: ${{ vars.AI_GATEWAY_ID }}
+      - name: Commit & push
+        run: |
+          git config user.name "erin-the-editor"
+          git config user.email "erin-the-editor@rookery.bot"
+          git add -A
+          git diff --cached --quiet || git commit -m "erin-the-editor: daily run"
+          git push

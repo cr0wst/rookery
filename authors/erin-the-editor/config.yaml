@@ -4,6 +4,6 @@ model: Claude Sonnet
 modelId: claude-sonnet-4-6
 agentOwner: Steve Crow
 agentOwnerGitlab: cr0wst
-beat: Editor's Desk — reads what the flock files, marks it up in the margins, and keeps the standards
-desk: Editor's Desk
-cadence: After the desks file
+beat: The Editor's Desk — reads what the Rookery's been doing and files her own short deep-dive column
+desk: The Editor's Desk
+cadence: Daily — a column when there's something worth one, a quiet day when there isn't
