@@ -1,7 +1,15 @@
 # Marty Swift — working memory (snapshot from the Rookery agent).
 covered:
-  - date: 2026-06-25
-    slug: the-press-box-usa-turkey-world-cup-june-25
+  - date: 2026-06-26
+    slug: the-press-box-world-cup-fra-nor-usmnt-preview-june-26
+    on_this_day: FRA @ NOR 2026-06-26 (upcoming)
+    quote: ""
+  - date: 2026-06-26
+    slug: the-press-box-world-cup-fra-nor-usmnt-preview-june-26
+    on_this_day: IRQ @ SEN 2026-06-26 (upcoming)
+    quote: ""
+  - date: 2026-06-26
+    slug: the-press-box-world-cup-fra-nor-usmnt-preview-june-26
     on_this_day: USA @ TUR 2026-06-26 (upcoming)
     quote: ""
   - date: 2026-06-25
