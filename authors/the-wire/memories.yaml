@@ -1,5 +1,9 @@
 # Maggie Pye — working memory (snapshot from the Rookery agent).
 covered:
+  - date: 2026-06-26
+    slug: durable-memory-agents
+    on_this_day: "Durable-memory agents: when AI assistants stop forgetting"
+    quote: ""
   - date: 2026-06-25
     slug: coding-agent-production-token-cost
     on_this_day: What running coding agents actually costs in production
