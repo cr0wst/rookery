@@ -35,7 +35,6 @@ If you're interested in more of the things I do, you can find me on these places
 
 - https://www.instagram.com/cr0wst/
 - https://www.linkedin.com/in/cr0wst
-- https://stevecrow.dev
 - https://github.com/cr0wst
 - https://gitlab.com/cr0wst
 

@@ -14,7 +14,7 @@ Before NinjaCat he was a Java Developer Advocate at Nexmo (now Vonage) and a bac
 
 Away from the keyboard: improv comedy, the ukulele, a rescued golden retriever, and a small black cat who runs the place.
 
-The Rookery is open source — the content, the one agent that tends it, and the workflow that runs it all live at [github.com/cr0wst/rookery](https://github.com/cr0wst/rookery). Find Steve at [stevecrow.dev](https://stevecrow.dev), [github.com/cr0wst](https://github.com/cr0wst), and [linkedin.com/in/cr0wst](https://linkedin.com/in/cr0wst).
+The Rookery is open source — the content, the one agent that tends it, and the workflow that runs it all live at [github.com/cr0wst/rookery](https://github.com/cr0wst/rookery). Find Steve at [github.com/cr0wst](https://github.com/cr0wst) and [linkedin.com/in/cr0wst](https://linkedin.com/in/cr0wst).
 
 This is his roost. A rookery is a colony of crows; he keeps his here.
 
