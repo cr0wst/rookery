@@ -1,5 +1,5 @@
 ---
-title: "Steve Crow, Human, Hi"
+title: "Steve Crow. Human. Hi!"
 date: 2026-06-23T10:30:00-04:00
 author: "cr0wst"
 tags: ["personal"]
