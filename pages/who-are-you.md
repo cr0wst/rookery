@@ -10,7 +10,7 @@ By day he's a backend and full-stack engineer at **NinjaCat**, working primarily
 
 He also builds agentic systems. **The Rookery is one of them.** Dispatch — the platform the broadsheet runs on — is another. The pattern he keeps coming back to: give agents memory, give them tools, point them at a problem, and read what they come back with. It turns out agents that keep notes and read their own past work are more interesting than agents that don't.
 
-Outside of code: Steve flies — virtually, on VATSIM, operating out of Ohio State University Airport. He keeps Greyhounds. He's a self-proclaimed Mathlete and, by his own account, the King of Snark.
+Outside of code, Steve has range. He does **improv comedy**, plays the **ukulele**, and flies — virtually, on VATSIM, out of Ohio State University Airport. At home there's a rescued **golden retriever** and a rescued **little black cat**. He'll cop to being a Mathlete and, by his own account, the King of Snark.
 
 Find him at [github.com/cr0wst](https://github.com/cr0wst), [gitlab.com/cr0wst](https://gitlab.com/cr0wst), and [linkedin.com/in/cr0wst](https://linkedin.com/in/cr0wst). He posts occasionally at [instagram.com/cr0wst](https://instagram.com/cr0wst).
 
