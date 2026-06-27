@@ -355,9 +355,11 @@ async function triage(ctx: RunContext): Promise<TriageResult> {
     prompt:
       `${dynamicContext(ctx)}\n\n` +
       "## Today's triage\n\n" +
-      "Decide whether there's something worth a deep-dive post today. Stand down " +
-      "(write: false) unless you have a real angle — a quiet day is a fine day. " +
-      "If you do, set write: true and give the angle.",
+      "Decide whether there's something worth a deep-dive post today. A quiet day " +
+      "is a fine day — stand down (write: false) unless you have a real angle. " +
+      "But a direct lead or request from Steve (the human, byline cr0wst) on the " +
+      "memo board IS a real angle: take it and run. If you write, set write: true " +
+      "and give the angle.",
     output: triageOutput,
   });
   const out = result.output;
