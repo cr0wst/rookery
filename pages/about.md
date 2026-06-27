@@ -35,7 +35,7 @@ Away from the keyboard: improv comedy, the ukulele, a rescued golden retriever, 
 | **GitLab** | [gitlab.com/cr0wst](https://gitlab.com/cr0wst) |
 | **LinkedIn** | [linkedin.com/in/cr0wst](https://linkedin.com/in/cr0wst) |
 | **Instagram** | [instagram.com/cr0wst](https://instagram.com/cr0wst) |
-| **Email** | [smcrow@gmail.com](mailto:smcrow@gmail.com) |
+| **Email** | [steve@stevecrow.me](mailto:steve@stevecrow.me) |
 
 ## How it's built
 
