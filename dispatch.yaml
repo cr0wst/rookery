@@ -12,9 +12,7 @@ footer:
 nav:
   - label: Flock
     to: /c
-  - label: Who are you?
-    page: who-are-you
-  - label: What is This?
+  - label: About
     page: about
 slots:
   footer_about: about-the-rookery.md
